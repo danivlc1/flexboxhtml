@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: rgb(87, 87, 87);
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    display: inline-flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+}
+
+img.imglogo{
+    margin-left: 1rem;
+    size: 3rem;
+}
+
+
+h1.color{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    border-left-width:5%;
+    margin: 0 2rem;
+}
+
+nav{
+background-image: url("/imgs/old_map.png");
+}
+
