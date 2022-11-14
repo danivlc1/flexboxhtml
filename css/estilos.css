@@ -1,6 +1,11 @@
 *{
-    margin: 0%;
+    margin: 0.1%;
     padding: 0%;
+}
+
+body{
+    background-image: url(/imgs/old_map.png);
+
 }
 
 header{
@@ -12,6 +17,7 @@ header{
     width: 100%;
     height: 5rem;
     align-items: center;
+
 }
 
 img.imglogo{
@@ -29,6 +35,63 @@ h1.color{
 }
 
 nav{
-background-image: url("/imgs/old_map.png");
+    background-image: url("/imgs/red015.jpg")
 }
 
+ul li {
+    list-style-type: none;
+ }
+
+ul.elnav{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+
+.colornav{
+    color: antiquewhite;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+article{
+    background-color: rgba(255, 255, 255, 0.756);
+    margin: 4rem;
+    height: 29rem;
+    width: 20rem;
+}
+
+div.article_header{
+    margin-bottom: 2rem;
+}
+
+img.size{
+max-height: 15rem;
+max-width: 20rem;
+}
+p{
+    margin:1.5rem;
+    margin-top: 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    text-align: center;
+    border-top: solid;
+    border-color:black;
+    border-width: 0.3rem;
+    font-weight: 4%;
+    color: aliceblue;
+}
